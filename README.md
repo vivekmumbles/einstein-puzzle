@@ -26,4 +26,6 @@ The puzzle is the following. Let us assume that there are five houses of differe
 
 Assuming all of these statements are true, who keeps fish as a pet?
 
-## Approaches
+## Discussion of Approaches
+
+From the problem statment we can see that there are 5 variables each with 5 possible assignments, generating a total of 5^5 = 3125 possible variations. Then all permutations of size 5 would be 3125^5 ~= 3e17. This is too large of a number to brute force and try all the possibilities.
