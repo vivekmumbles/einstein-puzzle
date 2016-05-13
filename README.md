@@ -43,3 +43,7 @@ Most of the work when implementing this solution was creating the data structure
 > 9\. The Norwegian lives in the first house.
 
 Therfore the first house must of a Norwegian who does not drink milk. Once we similarly apply this strategy of filters to the other house positions we are able to find the solution within a few seconds.
+
+## Conclusion
+
+After implementing this problem in Haskell I would find it tedious to implement it in another language. The laziness in Haskell allows the programmer to write solutions to backtracking problems by essentially just running filters on the list of possiblities.
