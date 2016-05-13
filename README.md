@@ -46,4 +46,4 @@ Therefore the first house must belong to a Norwegian who does not drink milk. On
 
 ## Conclusion
 
-After implementing this problem in Haskell I would find it tedious to implement it in another language. The laziness in Haskell allows the programmer to write solutions to backtracking problems by essentially just running filters on the list of possiblities.
+After implementing this problem in Haskell I would find it tedious to implement it in another language. The laziness in Haskell allows the programmer to write solutions to backtracking problems by essentially just running filters on the list of possibilities.
