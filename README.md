@@ -29,3 +29,7 @@ Assuming all of these statements are true, who keeps fish as a pet?
 ## Discussion of Approaches
 
 From the problem statment we can see that there are 5 variables each with 5 possible assignments, generating a total of 5^5 = 3125 possible variations. Then all permutations of size 5 would be 3125^5 ~= 3e17. This is too large of a number to brute force and try all the possibilities.
+
+A common approach to solving constraint satisfaction problems using imperative programming languages is backtracking. Backtracking alone is not very useful and essentially becomes a bruteforce search, but if we are able to prune/filter the search space we can greatly reduce the amount of candidates we must verify. In the solution we give we use this pruning/filtering idea and couple it with the lazy nature of Haskell to solve the problem.
+
+The paper [_Escape from Zurg: An Exercise in Logic Programming_](https://web.engr.oregonstate.edu/~erwig/papers/Zurg_JFP04.pdf)
